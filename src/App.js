@@ -31,7 +31,9 @@ function App() {
 
   return (
     <div>
-      <Button name="처음부터" onClick={handleClearClick}></Button>
+      <Button name="처음부터" onClick={handleClearClick}>
+        처음부터
+      </Button>
       <p>{getResult(hand, otherHand)}</p>
       <div>
         <HandIcon value={hand}></HandIcon>

@@ -9,7 +9,10 @@ const IMAGES = {
   paper: paperImg,
 };
 
+console.log("IMAGES object:", IMAGES);
+
 export default function HandIcon({ value }) {
+  console.log("HandIcon value:", value);
   const src = IMAGES[value];
   return <img src={src} alt={value} />;
 }
