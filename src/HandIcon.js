@@ -9,7 +9,7 @@ const IMAGES = {
   paper: paperImg,
 };
 
-export default function Dice({ value }) {
+export default function HandIcon({ value }) {
   const src = IMAGES[value];
   return <img src={src} alt={value} />;
 }
